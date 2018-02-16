@@ -1,0 +1,39 @@
+---
+- !ruby/object:Contact
+  phone_numbers:
+  - !ruby/object:PhoneNumber
+    number: '999078542'
+  addresses:
+  - !ruby/object:Address
+    kind: main
+    street_1: markey
+    street_2: complex road
+    city: banagalore
+    state: karntaka
+    postal_code: '677801'
+  first_name: Abhilasha
+  middle_name: u
+  last_name: jain
+- !ruby/object:Contact
+  phone_numbers:
+  - !ruby/object:PhoneNumber
+    number: '9990786754'
+  addresses: []
+  first_name: Surabhi
+  middle_name: k
+  last_name: Gupta
+- !ruby/object:Contact
+  phone_numbers:
+  - !ruby/object:PhoneNumber
+    number: '990679175'
+  addresses:
+  - !ruby/object:Address
+    kind: home
+    street_1: 'Btm '
+    street_2: 2nd stage
+    city: Bangalore
+    state: Karnataka
+    postal_code: '2223190'
+  first_name: Zeena
+  middle_name: j
+  last_name: Kamal
